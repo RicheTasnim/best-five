@@ -114,3 +114,84 @@ main {
     background: #0D0D0D;
 
 }
+
+.border-bg {
+    border: 1px solid #FFFFFF;
+    width: 100px;
+}
+
+.calculation-btn {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-align: center;
+    padding: 5px 80px 5px 80px;
+    color: #FFFFFF;
+    background: #015196;
+}
+
+.money {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+}
+
+.total {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #AFAFAF;
+}
+
+.totalMoney {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-align: right;
+
+    color: #FF5E19;
+
+}
+
+ol {
+    padding: 25px;
+}
+
+li {
+    margin-top: 20px;
+}
+
+.select-btn {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+    background: #015196;
+    padding: 5px 80px 5px 80px;
+}
