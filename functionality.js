@@ -68,3 +68,43 @@ document.getElementById('btn-6').addEventListener('click', function () {
     document.getElementById('btn-6').style.backgroundColor = '#A2A9AF';
     document.getElementById('btn-6').setAttribute('disabled', '');
 })
+
+
+document.getElementById('calculation').addEventListener('click', function () {
+    const listLength = document.getElementsByTagName('li').length;
+    const everyPlayer = document.getElementById('each-player').value;
+    if (everyPlayer == "") {
+        alert("ERROR!! please put a number.");
+        return false;
+    }
+    const calculation = listLength * everyPlayer;
+
+    const playerExpenses = document.getElementById('player-expenses')
+    playerExpenses.innerText = calculation;
+
+
+})
+
+document.getElementById('calculation-total').addEventListener('click', function () {
+    const listLength = document.getElementsByTagName('li').length;
+    const everyPlayer = document.getElementById('each-player').value;
+
+    const calculation = listLength * everyPlayer;
+
+    const manager = parseFloat(document.getElementById('manager').value);
+    const coach = parseFloat(document.getElementById('coach').value);
+
+
+    if (manager == "" || coach == "") {
+        alert("ERROR!! Please put a name.");
+        return false;
+    }
+    else {
+
+        const totalCalculation = calculation + manager + coach;
+
+        const totalcalculation = document.getElementById('totalMoney')
+        totalcalculation.innerText = totalCalculation;
+    }
+
+})
