@@ -55,6 +55,8 @@ main {
 
 }
 
+
+
 .playerList {
     background: #0D0D0D;
 }
@@ -113,6 +115,31 @@ main {
 .playerBudget {
     background: #0D0D0D;
 
+}
+
+.playerBudget h1 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+
+    text-align: center;
+    letter-spacing: -0.03em;
+
+    color: #FFFFFF;
+}
+
+.playerBudget span {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #AFAFAF;
 }
 
 .border-bg {

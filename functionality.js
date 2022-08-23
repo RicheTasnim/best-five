@@ -96,7 +96,7 @@ document.getElementById('calculation-total').addEventListener('click', function 
 
 
     if (manager == "" || coach == "") {
-        alert("ERROR!! Please put a name.");
+        alert("ERROR!! Please put a number.");
         return false;
     }
     else {
